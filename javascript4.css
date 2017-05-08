@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+  #flex-container {
+    align-items: center;
+    background-color: lightblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+  }
+    #quote {
+      background: pink;
+      display: flex;
+      flex-direction: column;
+      height: 300px;
+      justify-content: center;
+      margin: 20px;
+      width: 550px;
+    }
+      #talks {
+        font-family: "Ubuntu";
+        font-size: 30px;
+        line-height: 36px;
+          margin-left: 10px;
+      }
+      #author {
+        align-self: flex-end;
+        font-family: "Verdana";
+        font-size: 18px;
+        line-height: 32px;
+          margin-right: 10px;
+      }
+      .nextBtn {
+        align-self: center;
+        background: white;
+        cursor: pointer;
+        height:40px;
+        margin-top: 20px;
+        outline: inherit;
+        width: 100px;
+      }
